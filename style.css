@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    color: rgb(255, 255, 255);
+    background:rgb(67, 59, 103);
+    text-decoration: none;
+}
+
+html, body, footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-picture img {
+    width: 15vh;
+    margin: 2vh;
+    border-radius: 50%;
+}
+
+.title {
+    text-align: center;}
+
+.Siga {
+    text-align: center;
+}
+
+.Siga p {
+    margin:2vh;
+    width: 90vh;
+}
+
+.Siga img {
+    width: 23%;
+    margin:-1.5vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .Siga p {
+        width: 92%;
+    }
+}
+
+.social-midia {
+    text-align: center;
+}
+
+.social-midia button, a {
+    display: inline-block;
+    width: 45vh;
+    height: 50px;
+    line-height: 50px;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 16px;
+    display: block;
+    border: 1px #000000 solid;
+    border-radius: 180px;
+    box-shadow: 4px 4px rgb(0, 0, 0);
+}
+
+.social-midia button, a, Tiktok {
+    color: rgb(243, 224, 224);
+}
+
+.Youtube a{
+    background-color: none;
+    border: 2px solid #000000;
+}
+
+.Youtube:hover {
+    background: #FF0000;
+    transition: 0.15s;
+}
+
+.Tiktok a {
+    background-color: none;
+    border: 2px solid #000000;
+}
+.Tiktok:hover {
+    background: #000000;
+    transition: 0.15s;
+}
+
+.Facebook a {
+    background-color: none;
+    border: 2px solid #4141f1;
+}
+
+.Facebook:hover {
+    background: #4141f1;
+    transition: 0.15s;
+}
+
+.Instagram a {
+    background-color: none;
+    border: 2px solid #DD2A7B;
+}
+
+.Instagram:hover {
+    background: #DD2A7B;
+    transition: 0.15s;
+}
+
+.Pinterest a {
+    background-color: none;
+    border: 2px solid #b30000;
+}
+
+.Pinterest:hover {
+    background: #b30000;
+    transition: 0.15s;
+}
+
+.social-media .button, a:hover{
+
+    animation: shake 1s infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(-5px);
+    }
+    25% {
+        transform: translateX(5px);
+    }
+
+    50% {
+        transform: translateX(-5px);
+    }
+
+    75% {
+        transform: translateX(5px);
+    }
+    
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.iframe {
+    
+}
+
+.Assinatura {
+    
+    font-style: italic;
+    margin: 10px;
+}
